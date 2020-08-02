@@ -36,6 +36,16 @@
 #include "VCamUtils/src/ipcbridge.h"
 #include "VCamUtils/src/logger/logger.h"
 
+#pragma comment(lib, "advapi32")
+#pragma comment(lib, "kernel32")
+#pragma comment(lib, "psapi")
+#pragma comment(lib, "gdi32")
+#pragma comment(lib, "strmiids")
+#pragma comment(lib, "uuid")
+#pragma comment(lib, "ole32")
+#pragma comment(lib, "oleaut32")
+#pragma comment(lib, "shell32")
+
 namespace AkVCam
 {
     typedef std::shared_ptr<IMoniker> MonikerPtr;

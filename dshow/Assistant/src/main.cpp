@@ -24,6 +24,13 @@
 #include "PlatformUtils/src/utils.h"
 #include "VCamUtils/src/logger/logger.h"
 
+#pragma comment(lib, "advapi32")
+#pragma comment(lib, "gdi32")
+#pragma comment(lib, "ole32")
+#pragma comment(lib, "shell32")
+#pragma comment(lib, "strmiids")
+#pragma comment(lib, "uuid")
+
 int main(int argc, char **argv)
 {
     auto loglevel = AkVCam::regReadInt("loglevel", AKVCAM_LOGLEVEL_DEFAULT);

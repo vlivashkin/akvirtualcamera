@@ -11,6 +11,8 @@
 *.run
 *.AppImage
 *.framework
+cmake-build-debug
+cmake-build-release
 
 # Packages #
 ############
@@ -72,6 +74,7 @@ object_script.*
 ####################################
 __pycache__
 *.pyc
+.idea
 
 # Android files #
 #################

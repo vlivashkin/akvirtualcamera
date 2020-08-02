@@ -25,6 +25,18 @@
 
 #include "mediafilter.h"
 
+#pragma comment(lib, "advapi32")
+#pragma comment(lib, "gdi32")
+#pragma comment(lib, "kernel32")
+#pragma comment(lib, "ole32")
+#pragma comment(lib, "oleaut32")
+#pragma comment(lib, "psapi")
+#pragma comment(lib, "shell32")
+#pragma comment(lib, "strmiids")
+#pragma comment(lib, "user32")
+#pragma comment(lib, "uuid")
+#pragma comment(lib, "winmm")
+
 namespace AkVCam
 {
     class BaseFilterPrivate;
