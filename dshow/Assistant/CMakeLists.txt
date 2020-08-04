@@ -19,4 +19,3 @@ target_link_libraries(${PROJECT}
         PlatformUtils
         VCamUtils
         )
-set_target_properties(${PROJECT} PROPERTIES LINKER_LANGUAGE CXX)

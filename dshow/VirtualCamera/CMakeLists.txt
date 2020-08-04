@@ -53,9 +53,12 @@ set(SOURCES
         src/videocontrol.h
         src/videoprocamp.cpp
         src/videoprocamp.h
+        VirtualCamera.def
         )
 
-add_library(${PROJECT} STATIC ${SOURCES})
+set(CMAKE_ENABLE_EXPORTS TRUE)
+set(BUILD_SHARED_LIBS TRUE)
+add_library(${PROJECT} SHARED ${SOURCES})
 target_include_directories(${PROJECT} PRIVATE
         ${PROJECT_SOURCE_DIR}/..
         ${PROJECT_SOURCE_DIR}/../..

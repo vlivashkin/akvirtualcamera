@@ -17,4 +17,3 @@ target_include_directories(${PROJECT} PRIVATE
 target_link_libraries(${PROJECT}
         VCamUtils
 )
-set_target_properties(${PROJECT} PROPERTIES LINKER_LANGUAGE CXX)
